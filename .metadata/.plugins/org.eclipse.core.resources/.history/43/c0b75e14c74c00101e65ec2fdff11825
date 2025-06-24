@@ -1,0 +1,10 @@
+package summerpep2.Interfaces;
+
+public class Client {
+    public static void main(String[] args) {
+        phone myPhone = new phone();
+        myPhone.PlayMedia();
+        myPhone.MakeCalls();
+        myPhone.ConnectToWifi();
+    }
+}

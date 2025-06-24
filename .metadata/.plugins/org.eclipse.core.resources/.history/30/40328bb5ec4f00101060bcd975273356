@@ -1,0 +1,21 @@
+package summerpep2;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class FilterEvenNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> numbers = new ArrayList<>();
+
+        System.out.println("Enter numbers (type 'end' to finish):");
+        while (sc.hasNextInt()) {
+            numbers.add(sc.nextInt());
+        }
+
+        List<Integer> evenNumbers = numbers.stream()
+                                           .filter(n -> n % 2 == 0)
+                                           .collect(Collectors.toList());
+
+        System.out.println("Even numbers: " + evenNumbers);
+    }
+}

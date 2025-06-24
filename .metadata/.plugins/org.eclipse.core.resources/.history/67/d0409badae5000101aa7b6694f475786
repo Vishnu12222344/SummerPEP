@@ -1,0 +1,11 @@
+package summerpep2.Threads;
+
+public class CreateThread {
+	public static void main(String[] args) {
+		String threadname = Thread.currentThread().getName();
+		
+		for(int i=0;i<10;i++) {
+			System.out.println(threadname + i);
+		}
+	}
+}

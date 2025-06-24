@@ -1,0 +1,30 @@
+package summerpep2.Threads;
+class SharedData {
+    int value = 0;
+    public void addOne() {
+        value += 1;
+        System.out.println(Thread.currentThread().getName() + " added 1, value: " + value);
+    }
+    public void subtractOne() {
+        value -= 1;
+        System.out.println(Thread.currentThread().getName() + " subtracted 1, value: " + value);
+    }
+}
+public class ThreadsExample {
+    public static void main(String[] args) {
+        SharedData data = new SharedData();
+        Thread adder = new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                data.addOne();
+            }
+        }, "AdderThread");
+        Thread subtractor = new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                data.subtractOne();
+            }
+        }, "SubtractorThread");
+
+        adder.start();
+        subtractor.start();
+    }
+}

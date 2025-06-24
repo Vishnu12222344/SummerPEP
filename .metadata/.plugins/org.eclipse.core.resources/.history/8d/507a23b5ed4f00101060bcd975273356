@@ -1,0 +1,14 @@
+package summerpep2;
+
+import java.util.*;
+public class FilterStringLength {
+	    public static void main(String[] args) {
+	        List<String> words = Arrays.asList("cat", "dog", "apple", "bat", "car", "pen");
+
+	        long count = words.stream()
+	                          .filter(word -> word.length() > 3)
+	                          .count();
+
+	        System.out.println("Number of strings with length 3: " + count);
+	    }
+	}

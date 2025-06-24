@@ -1,0 +1,25 @@
+package summerpep2.Collections;
+import java.util.*;
+public class TopKFrequency {
+	    public static void main(String[] args) {
+	        Scanner s = new Scanner(System.in);
+	        System.out.print("Enter comma-separated numbers: ");
+	        String input = s.nextLine().trim();
+	        System.out.print("Enter K: ");
+	        int k = s.nextInt();
+	        String[] tokens = input.split(",");
+	        Map<Integer, Integer> freqMap = new HashMap<>();
+	        for (String token : tokens) {
+	            int num = Integer.parseInt(token.trim());
+	            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+	        }
+	        PriorityQueue<Map.Entry<Integer, Integer>> pq =
+	                new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+	        pq.addAll(freqMap.entrySet());
+	        List<Integer> result = new ArrayList<>();
+	        for (int i = 0; i < k && !pq.isEmpty(); i++) {
+	            result.add(pq.poll().getKey());
+	        }
+	        System.out.println("Top " + k + " frequent numbers: " + result);
+	    }
+	}
