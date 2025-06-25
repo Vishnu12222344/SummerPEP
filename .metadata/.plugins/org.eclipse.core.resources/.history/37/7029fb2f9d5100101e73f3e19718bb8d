@@ -1,0 +1,81 @@
+In Java, synchronized, ReentrantLock, and Semaphore are all mechanisms used for thread synchronization, but they offer different levels of control and are suited for distinct scenarios.
+
+1. synchronized Keyword: Simple critical section - one thread at a time.
+
+Mechanism:
+Built-in language construct for achieving mutual exclusion. It implicitly acquires and releases a monitor lock associated with an object or a class.
+
+Usage:
+Applied to methods or code blocks.
+
+Reentrancy:
+Inherently reentrant; a thread that holds the lock can re-enter any synchronized block or method on the same object without blocking itself.
+
+Limitations:
+Lacks flexibility, such as the ability to try locking, timed locking, or interruptible locking. No fairness guarantees.
+
+synchronized block:
+
+synchronized (someObject) {
+    // Only one thread can enter here at a time
+}
+
+2. ReentrantLock: More Control over 
+
+Mechanism:
+An explicit lock implementation provided in the java.util.concurrent.locks package. It offers more control over locking and unlocking.
+
+Usage:
+Requires explicit lock() and unlock() calls, typically within a try-finally block to ensure proper release.
+
+Reentrancy:
+Reentrant, allowing a thread to acquire the same lock multiple times. 
+
+Advantages:
+Provides features like tryLock(), tryLock(long timeout, TimeUnit unit), and lockInterruptibly(), offering more robust error handling and responsiveness. Can be configured for fairness.
+
+ReentrantLock usage:
+
+Lock lock = new ReentrantLock();
+try {
+    lock.lock();
+    // Critical section
+} finally {
+    lock.unlock(); // Always release
+}
+
+3. Semaphore: Multiple threads allowed.
+
+Mechanism:
+A counting semaphore that controls access to a resource by maintaining a set of permits. Threads acquire a permit to access the resource and release it when done.
+
+Usage:
+acquire() to obtain a permit, release() to return a permit.
+
+Purpose:
+Primarily used to limit the number of threads that can concurrently access a shared resource, rather than strict mutual exclusion (though a binary semaphore can achieve mutual exclusion).
+
+Advantages:
+Useful for managing resource pools or controlling the rate of access to a limited resource.
+
+Semaphore usage:
+
+Semaphore semaphore = new Semaphore(3); // max 3 threads at once
+
+try {
+    semaphore.acquire();
+    // Access shared resource
+} finally {
+    semaphore.release(); // Return permit
+}
+
+
+4.Explicit Lock:
+
+More Flexible than synchronized -- allows:
+- Try acquiring lock(trylock()).
+- Acquire with Timeout.
+- Interrupt thread waiting for lock.
+- must manually release the lock using unlock(). 
+
+

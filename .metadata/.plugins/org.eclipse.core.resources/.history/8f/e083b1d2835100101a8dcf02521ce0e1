@@ -1,0 +1,24 @@
+In Java, concurrency and parallelism are related but distinct concepts concerning how multiple tasks are handled within a program.
+Concurrency:
+Dealing with multiple tasks at the same time:
+Concurrency enables a program to manage and make progress on multiple tasks, even if they are not strictly executing simultaneously.
+
+Parallelism:
+Simultaneous execution of tasks:
+Parallelism involves the actual simultaneous execution of multiple tasks or sub-tasks on multiple processing units (e.g., multiple CPU cores).
+
+ThreadPool:
+
+A thread pool in Java is a collection of pre-initialized and managed worker threads available to execute tasks. Instead of creating a new thread for every task, which can be resource-intensive and lead to performance overhead, a thread pool reuses existing threads, improving efficiency and resource utilization. 
+
+Executors Class:
+Provides convenient factory methods to create common types of thread pools, such as:
+FixedThreadPool: Maintains a fixed number of threads.
+ ExecutorService executor = Executors.newFixedThreadPool(5);
+ 
+CachedThreadPool: Creates new threads as needed but reuses idle ones.
+ ExecutorService CachedPool = Executors.newCachedThreadPool();
+ 
+ScheduledThreadPool: Used for scheduling tasks to be executed at a later time or at a fixed rate.
+
+SingleThreadExecutor: Uses a single worker thread to execute tasks sequentially.

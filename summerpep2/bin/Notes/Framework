@@ -1,0 +1,35 @@
+✅ Framework in Java
+A Framework is a pre-written reusable set of libraries and tools that provides a structured environment and standard practices to develop applications efficiently. It acts as a foundation upon which software developers can build programs for a specific platform.
+
+🔑 Key Features of a Framework (in Java):
+Code Reusability:
+Predefined libraries and components can be reused across projects, reducing development time.
+
+Inversion of Control (IoC):
+The framework controls the flow of the program, not the developer. Common in frameworks like Spring.
+
+Modularity:
+Large applications can be broken into modules, making them easier to manage and test.
+
+Security:
+Built-in security features like authentication, authorization, and data validation.
+
+Scalability:
+Frameworks allow applications to grow in size and complexity easily.
+
+Ease of Testing:
+Support for unit and integration testing, often with built-in testing tools.
+
+Integration:
+Easy integration with databases (like MySQL, Oracle), web servers (like Tomcat), and other tools.
+
+MVC Support (Model-View-Controller):
+Most Java frameworks support the MVC design pattern, separating business logic, UI, and data.
+
+💡 Popular Java Frameworks:
+
+Framework	Used For	Key Highlight
+Spring	Enterprise apps	Dependency Injection, REST APIs
+Hibernate	ORM (Object Relational Mapping)	Maps Java objects to database
+Struts	Web apps	Follows MVC architecture
+JSF (JavaServer Faces)	Web UI	UI component-based framework

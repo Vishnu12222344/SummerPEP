@@ -1,0 +1,16 @@
+package ExecutorServices;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Executor;
+
+public class PrimeNumbersExample {
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+        Runnable P1=()->{
+        	for(int i=1;i<50;i++) {
+        		if(i%1)
+        	}
+        }
+        
+    }
+}
