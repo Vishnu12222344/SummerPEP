@@ -75,9 +75,6 @@ Mechanism:
 Part of java.util.concurrent.
 
 Controls access using a set number of permits.
-Allows FIxed number of threads to access it concurrently.
-producer-consumer problem is a classic and excellent example of where semaphore is used effectively.
-To avoid inconsistency when using a semaphore in java, you must combine it with proper synchronization techniques- because semaphore only controls access count, not atomicity.
 
 Usage:
 
