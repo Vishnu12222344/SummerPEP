@@ -1,5 +1,0 @@
-package summerpep2.Interfaces.PaymentMethods;
-
-public class Paypal {
-
-}

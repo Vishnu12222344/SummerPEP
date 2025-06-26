@@ -1,0 +1,27 @@
+✅ 1. SOLID Principles (Most Important)
+
+A set of 5 object-oriented design principles:
+
+Principle	Description
+S - Single Responsibility Principle (SRP)	A class should have only one reason to change. Keep classes focused.
+O - Open/Closed Principle (OCP)	Software entities (classes, methods) should be open for extension but closed for modification. Use interfaces/abstract classes.
+L - Liskov Substitution Principle (LSP)	Subtypes must be substitutable for their base types without altering correctness.
+I - Interface Segregation Principle (ISP)	Don’t force classes to implement unused methods. Prefer smaller, specific interfaces.
+D - Dependency Inversion Principle (DIP)	Depend on abstractions, not on concrete implementations (use interfaces).
+
+
+1. S -  Single Responsibility Principle (SRP)
+
+ Example:
+ 
+ TvRemote{
+ DecisionMaker(command){
+ if('on'){
+ 	StartTv();
+ if('off'){
+ 	StopTv();
+ if('youtube'){
+ 	StartYTB();
+ }
+ }
+ 

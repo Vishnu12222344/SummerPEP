@@ -1,0 +1,79 @@
+Design Patterns:                                                                                                                  |
+																																  |
+----------------------------------------------------------------------------------------------------------------------------------|
+🔵 1. Creational Design Patterns
+----------------------------------------------------------------------------------------------------------------------------------
+| Pattern              | Example Use Case                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Singleton**        | **Logger** class – ensuring only one logging instance for the whole application.                        |
+| **Factory Method**   | **Notification Factory** – create different types of notifications like Email, SMS, Push.               |
+| **Abstract Factory** | **UI Factory** – generating UI elements for different platforms (Windows, macOS, Linux).                |
+| **Builder**          | **Meal Builder** – building complex food combos like McDonald’s meal with Burger, Drink, Fries. 
+				          Its a creational design pattern, that helps you build a complex object in simpler way.
+				          Why we use??
+				          -> When object creation has optional fields.
+				          -> To avoid constructors with too many parameters.(Telescoping constructor problem).
+				          -> To improve readability and maintainability.
+| **Prototype**        | **Cloning Shapes** – duplicating graphic shapes in a design app without rebuilding properties manually. |
+----------------------------------------------------------------------------------------------------------------------------------
+
+🟢 2. Structural Design Patterns
+---------------------------------------------------------------------------------------------------------------------------------
+| Pattern       | Example Use Case                                                                                              |
+| ------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Adapter**   | **Legacy Media Player Adapter** – adapting an old audio player class to work with a new interface.            |
+| **Bridge**    | **Remote Control System** – separate abstraction (Remote) from implementation (TV, Set-top box).              |
+| **Composite** | **Folder Structure** – treat individual files and folders (which may contain files) uniformly.                |
+| **Decorator** | **Coffee Shop Order** – wrap base coffee object with decorators like Milk, Sugar, Cream.                      |
+| **Facade**    | **Video Conversion Library** – hide complex subsystems (Codec, BitrateReader, etc.) under a simple interface. |
+| **Flyweight** | **Character Rendering** – share font data among multiple characters in a word processor.                      |
+| **Proxy**     | **Internet Proxy** – control access to the internet, cache content, or perform security checks.               |
+---------------------------------------------------------------------------------------------------------------------------------
+
+🔴 3. Behavioral Design Patterns
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Pattern                     | Example Use Case                                                                                            |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Observer**                | **GUI Event System** – multiple listeners observing button clicks or input changes.                         |
+| **Strategy**                | **Sorting Strategy** – dynamically choose between quick sort, merge sort, or bubble sort.                   |
+| **Command**                 | **Remote Control** – encapsulate each button as a command like TurnOn, TurnOff, VolumeUp.                   |
+| **Chain of Responsibility** | **Request Handling** – multiple handlers (Auth → Validation → Logging) process web requests.                |
+| **Template Method**         | **Document Parser** – common algorithm steps but format-specific parsing (XML, JSON).                       |
+| **State**                   | **Media Player** – changing behavior (play, pause, stop) based on internal state.                           |
+| **Iterator**                | **Collection Traversal** – traverse elements in a custom list or data structure.                            |
+| **Mediator**                | **Chat Room** – central hub controlling communication between multiple users.                               |
+| **Memento**                 | **Text Editor Undo** – capture and restore text state (Ctrl+Z functionality).                               |
+| **Interpreter**             | **Math Expression Parser** – parsing and evaluating expressions like `2 + 3 * 5`.                           |
+| **Visitor**                 | **Tax Calculator** – perform operations on employee types (Contractor, FullTime) without modifying classes. |
+--------------------------------------------------------------------------------------------------------------------------------------------
+✅ 1. SOLID Principles (Most Important)
+
+A set of 5 object-oriented design principles:
+
+Principle	Description
+S - Single Responsibility Principle (SRP)	A class should have only one reason to change. Keep classes focused.
+O - Open/Closed Principle (OCP)	Software entities (classes, methods) should be open for extension but closed for modification. Use interfaces/abstract classes.
+L - Liskov Substitution Principle (LSP)	Subtypes must be substitutable for their base types without altering correctness.
+I - Interface Segregation Principle (ISP)	Don’t force classes to implement unused methods. Prefer smaller, specific interfaces.
+D - Dependency Inversion Principle (DIP)	Depend on abstractions, not on concrete implementations (use interfaces).
+
+
+1. S -  Single Responsibility Principle (SRP)
+
+ Example:
+ 
+ TvRemote{
+ DecisionMaker(command){
+ if('on'){
+ 	StartTv();
+ if('off'){
+ 	StopTv();
+ if('youtube'){
+ 	StartYTB();
+ }
+ }
+ 
+ Singleton Method Design Pattern:
+ The Singleton Method Design Pattern ensures a class has only one instance and provides a global access point to it. It’s ideal for scenarios requiring centralized control, like managing database connections or configuration settings. 
+ 
+ 
