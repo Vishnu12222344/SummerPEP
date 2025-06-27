@@ -8,8 +8,7 @@ Design Patterns:                                                                
 | **Singleton**        | **Logger** class – ensuring only one logging instance for the whole application.                        |
 | **Factory Method**   | **Notification Factory** – create different types of notifications like Email, SMS, Push.               |
 | **Abstract Factory** | **UI Factory** – generating UI elements for different platforms (Windows, macOS, Linux).                |
-| **Builder**          | **Meal Builder** – building complex food combos like McDonald’s meal with Burger, Drink, Fries. 
-				          Its a creational design pattern, that helps you build a complex object in simpler way.
+| **Builder**          |  Its a creational design pattern, that helps you build a complex object in simpler way.
 				          Why we use??
 				          -> When object creation has optional fields.
 				          -> To avoid constructors with too many parameters.(Telescoping constructor problem).
@@ -21,7 +20,8 @@ Design Patterns:                                                                
 ---------------------------------------------------------------------------------------------------------------------------------
 | Pattern       | Example Use Case                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Adapter**   | **Legacy Media Player Adapter** – adapting an old audio player class to work with a new interface.            |
+| **Adapter**   | Acts as a bridge between two incompactible systems.
+	              This design pattern allows tow compactible interfaces to work together by converting one interface into another that the client expects. 
 | **Bridge**    | **Remote Control System** – separate abstraction (Remote) from implementation (TV, Set-top box).              |
 | **Composite** | **Folder Structure** – treat individual files and folders (which may contain files) uniformly.                |
 | **Decorator** | **Coffee Shop Order** – wrap base coffee object with decorators like Milk, Sugar, Cream.                      |

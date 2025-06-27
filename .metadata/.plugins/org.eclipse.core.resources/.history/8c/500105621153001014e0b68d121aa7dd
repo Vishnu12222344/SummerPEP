@@ -1,0 +1,8 @@
+package SOLID;
+
+public class IOS implements MobileOS {
+    @Override
+    public void display() {
+        System.out.println("Most Secure OS: iOS");
+    }
+}
