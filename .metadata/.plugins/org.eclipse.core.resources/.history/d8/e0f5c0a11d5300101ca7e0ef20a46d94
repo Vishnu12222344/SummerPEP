@@ -1,0 +1,5 @@
+package SOLID.Factory.copy;
+
+public interface MobileOS {
+    void display();
+}

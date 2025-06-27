@@ -1,0 +1,15 @@
+package SOLID.Factory;
+
+public class OSFactory {
+    public MobileOS getInstance(String type) {
+        if (type.equalsIgnoreCase("Android")) {
+            return new Android();
+        } else if (type.equalsIgnoreCase("IOS")) {
+            return new IOS();
+        } else if (type.equalsIgnoreCase("Microsoft")) {
+            return new Microsoft();
+        } else {
+            throw new IllegalArgumentException("Unknown OS type: " + type);
+        }
+    }
+}
