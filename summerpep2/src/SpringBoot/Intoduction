@@ -1,0 +1,79 @@
+----------Spring Framework---------------
+
+--Introduction to springBoot.
+--Spring MVC.
+--How to setup a springBoot Project and structure of one.
+--Restful API Development.
+--Spring Data - JPA - Hibernate(ORM).
+--CRUD Operations.---------------------|
+--Postman/Swagger/Documentation.       |
+--Spring Security-Authorization        |
+                 -Authentication       |
+                 -Role Based Access    |
+--Validations & Exception Handling.    |
+--Annotations. Metadata                |
+                                       |
+                                      \|/
+                            --------->SQL<--------
+
+                                -> CRUD Operations
+                                -> Joins
+                                -> Indexing
+                                -> ACID
+                                -> Transactions
+                                -> Schema
+                                
+                                
+---------------------------------------------------------------------------------------------------------------------------------------------------
+INTRODUCTION: 
+
+What is SpringBoot??
+
+Spring Boot is an open-Source java framework that makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+																					   ________________
+Health checks
+Error Handling
+Integrations - Security
+Logging 
+Configuration is easy.
+
+What programmers do before SpringBoot??
+
+Spring Boot is a popular Java framework that simplifies the process of creating stand-alone, production-ready Spring-based applications.
+Before Spring Boot, developers had to manually configure and set up various components of the Spring framework, which could be time-consuming and complex. Spring Boot automates much of this configuration, allowing developers to focus on writing business logic and reducing development time.
+
+--Traditional Java EE(Enterprise Edition) / Servlet-Based Approach.
+--Developers used servlets and JDBC manually.
+--Lots of boilerplate code.
+--Hard to test, hard to maintain.
+--Xml-based configurations(painful!).
+
+
+
+JAR(Java Archive): Package Java Applications(Libraries/ Tools).
+WAR(WebApp Archive): Package web Applications(Servlet/ JSP-based apps).
+
+| Feature    | JAR                           | WAR                            |
+| ---------- | ----------------------------- | ------------------------------ |
+| Stands for | Java ARchive                  | Web Application ARchive        |
+| Used for   | Libraries / tools / apps      | Web applications (JSP/Servlet) |
+| Run with   | `java -jar`                   | Deployed on web server         |
+| Contains   | `.class`, resources, META-INF | Web content + `WEB-INF` folder |
+
+
+IMPORTANT ANNOTATIONS:
+                           
+--@SpringBootApplication: -->@Configuration
+                          -->@EnableAutoConfiguration
+                          -->@ComponentScane
+--@Controller
+--@RestController
+--@RequestMapping
+--@GetMapping,@PostMapping, @PutMapping, @DeleteMapping
+--@Autowired
+--@Component
+--@Service
+--@respository
+--@Entity
+--@Id
+--@Table

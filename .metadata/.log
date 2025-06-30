@@ -3512,3 +3512,378 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-30 09:20:27.709 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-06-30 09:20:56.514
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 09:20:56.514
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 09:20:56.514
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-30 09:21:01.708
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:41.582
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:42.159
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:42.881
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:43.683
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:44.026
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:44.365
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:45.695
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:46.370
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:46.753
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:47.221
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:47.532
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:48.114
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:48.562
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:48.956
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:49.587
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:50.143
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:50.523
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:51.008
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:51.454
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:51.897
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:52.456
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:52.799
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:53.382
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:54.153
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:54.450
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:54.764
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:55.534
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:55.920
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:56.375
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:57.029
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:57.402
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:58.036
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:58.364
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:59.561
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:45:59.997
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:00.502
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:01.180
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:01.606
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:02.358
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:02.834
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:03.255
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:04.200
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:04.491
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:04.864
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:05.312
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:05.729
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:06.163
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:06.471
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:06.852
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:07.319
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:07.789
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:08.548
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:09.132
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:09.469
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:09.786
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:10.174
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:10.536
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:10.891
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:11.197
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:11.528
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:11.926
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:12.278
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:12.833
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:13.250
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:13.560
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:13.912
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:14.478
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:14.758
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:15.453
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:15.879
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:16.399
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-30 10:46:16.777
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/zip
+!SESSION 2025-06-30 10:59:52.187 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\HP\OneDrive\Desktop\javaSummerPEP -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-06-30 10:59:56.872
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 10:59:56.872
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 10:59:56.872
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-30 10:59:59.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-30 11:14:16.493 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\HP\OneDrive\Desktop\javaSummerPEP -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-06-30 11:14:20.570
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 11:14:20.570
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-30 11:14:20.570
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-30 11:14:23.472
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
