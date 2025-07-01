@@ -1,0 +1,102 @@
+
+------WHAT IS REST API??---------
+
+
+A REST API (Representational State Transfer Application Programming Interface) is a way for different software systems to communicate with each 
+other over the internet using standard HTTP methods. It's essentially a set of rules and guidelines for building web APIs that allow clients and 
+servers to interact, typically by exchanging data in formats like JSON. 
+
+Key Concepts:
+
+API (Application Programming Interface):
+An API is a set of rules and specifications that allow different software applications to communicate and interact with each other. 
+
+REST (Representational State Transfer):
+REST is an architectural style for designing networked applications. It defines a set of constraints that, when followed, lead to more flexible, scalable, and maintainable web services. 
+
+HTTP Methods:  
+REST APIs use standard HTTP methods like GET (retrieve data), POST (create data), PUT (update data), and DELETE (remove data) to perform operations on resources. 
+
+Resources:
+In a REST API, resources are any data or content that can be accessed or manipulated by the API, such as users, products, or orders. 
+
+JSON (JavaScript Object Notation):
+JSON is a lightweight data-interchange format that is commonly used in REST APIs for exchanging data between client and server. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 1. Monolith (Monolithic Architecture):
+A monolith is a single, unified software application where all functions—UI, business logic, database—are part of one codebase and are deployed together.
+
+🧱 Example:
+E-commerce app where user authentication, product management, and payment are all tightly integrated into a single app.
+
+✅ Pros:
+-->Easy to develop initially
+-->Simpler deployment
+
+❌ Cons:
+-->Harder to scale specific features
+-->Difficult to update or maintain as it grows
+------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 2. Microservices Architecture:
+In microservices, the application is divided into small, independent services that communicate over APIs.
+
+🧩 Example:
+User service, product service, and payment service are separate, and can be developed, deployed, and scaled independently.
+
+✅ Pros:
+Easier to scale and maintain
+Technology-agnostic (each service can use a different language or framework)
+
+❌ Cons:
+Complex communication between services
+Requires DevOps and monitoring setup
+--------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 3. Scaling (Horizontal vs Vertical):
+🔹 Vertical Scaling (Scale-Up):
+Increasing the power of a single machine (CPU, RAM, etc.).
+
+🖥️ Example: Upgrade your server from 8GB RAM to 32GB.
+
+✅ Easy to implement
+❌ Limited by hardware
+
+🔹 Horizontal Scaling (Scale-Out):
+Adding more machines or servers to handle load.
+
+🌐 Example: Run your app on 5 servers instead of 1.
+
+✅ Better for large-scale apps
+❌ More complex infrastructure
+--------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 4. API (Application Programming Interface):
+An API allows different software applications to communicate with each other.
+
+📬 Example:
+A weather app using an API to fetch temperature data from a remote server.
+
+🛠️ Common Types:
+REST API
+GraphQL
+SOAP
+------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 5. API Gateway:
+An API Gateway is a server that acts as a single entry point into a microservices system.
+-->It is a connection between computers or between computer programs.
+-->It allows different software systems to communicate and interact with each other. It acts as a messenger ,enabling one application to request services or data from another without 
+needing to know the internal workings of the other system.
+
+🚪 Responsibilities:
+Route requests to appropriate services
+Handle authentication, rate limiting, logging, etc.
+
+🧭 Example: Amazon API Gateway, Kong, NGINX
+-------------------------------------------------------------------------------------------------------------------------------------------------
+✅ 6. CDN (Content Delivery Network):
+A CDN is a network of servers distributed globally to deliver static content like images, CSS, JS faster to users based on their location.
+
+📦 Example:
+Cloudflare, Akamai, AWS CloudFront
+
+✅ Improves website speed and performance
+✅ Reduces load on your main server
